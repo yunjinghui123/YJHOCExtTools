@@ -33,7 +33,6 @@
 		1C931AA32B107C500016092C /* YJHOCExtTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJHOCExtTools.h; sourceTree = "<group>"; };
 		1C931AA42B107C500016092C /* YJHOCExtTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJHOCExtTools.m; sourceTree = "<group>"; };
 		1C931AA62B107EA90016092C /* YJHOCExtToolsExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YJHOCExtToolsExample-Bridging-Header.h"; sourceTree = "<group>"; };
-		1C931AA72B107EA90016092C /* YJHOCExtTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJHOCExtTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +87,6 @@
 			children = (
 				1C931AA32B107C500016092C /* YJHOCExtTools.h */,
 				1C931AA42B107C500016092C /* YJHOCExtTools.m */,
-				1C931AA72B107EA90016092C /* YJHOCExtTools.swift */,
 			);
 			name = YJHOCExtTools;
 			path = ../../YJHOCExtTools;
