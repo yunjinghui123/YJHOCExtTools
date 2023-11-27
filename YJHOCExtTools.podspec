@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "YJHOCExtTools"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A simple Tool"
   spec.homepage     = "https://github.com/yunjinghui123/YJHOCExtTools"
   spec.author       = { "yunjinghui123" => "1432680302@qq.com" }
