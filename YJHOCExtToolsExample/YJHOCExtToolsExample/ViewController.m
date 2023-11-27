@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"%@", [YJHOCExtTools new].machineModel);
+    NSLog(@"%@", YJHOCExtTools.machineModel);
 }
 
 

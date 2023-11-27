@@ -10,12 +10,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YJHOCExtTools (machineModel)
-//iPhone设备
-- (NSString *)_iPhonePlatform:(NSString *)platform;
-//iPad设备
-- (NSString *)_iPadPlatform:(NSString *)platform;
-//iPod设备
-- (NSString *)_iPodPlatform:(NSString *)platform;
+// 设备型号
+- (NSString *)machinePlatform;
+
 @end
 
 NS_ASSUME_NONNULL_END
