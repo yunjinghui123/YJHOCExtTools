@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C6408332B1479A0001C48D4 /* YJHOCExtTools+machineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6408322B1479A0001C48D4 /* YJHOCExtTools+machineModel.m */; };
 		1C931A8B2B107BD90016092C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C931A8A2B107BD90016092C /* AppDelegate.m */; };
 		1C931A8E2B107BD90016092C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C931A8D2B107BD90016092C /* SceneDelegate.m */; };
 		1C931A912B107BD90016092C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C931A902B107BD90016092C /* ViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C6408312B1479A0001C48D4 /* YJHOCExtTools+machineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YJHOCExtTools+machineModel.h"; sourceTree = "<group>"; };
+		1C6408322B1479A0001C48D4 /* YJHOCExtTools+machineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YJHOCExtTools+machineModel.m"; sourceTree = "<group>"; };
 		1C931A862B107BD90016092C /* YJHOCExtToolsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJHOCExtToolsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C931A892B107BD90016092C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C931A8A2B107BD90016092C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 			children = (
 				1C931AA32B107C500016092C /* YJHOCExtTools.h */,
 				1C931AA42B107C500016092C /* YJHOCExtTools.m */,
+				1C6408312B1479A0001C48D4 /* YJHOCExtTools+machineModel.h */,
+				1C6408322B1479A0001C48D4 /* YJHOCExtTools+machineModel.m */,
 			);
 			name = YJHOCExtTools;
 			path = ../../YJHOCExtTools;
@@ -166,6 +171,7 @@
 				1C931A912B107BD90016092C /* ViewController.m in Sources */,
 				1C931A8B2B107BD90016092C /* AppDelegate.m in Sources */,
 				1C931AA52B107C500016092C /* YJHOCExtTools.m in Sources */,
+				1C6408332B1479A0001C48D4 /* YJHOCExtTools+machineModel.m in Sources */,
 				1C931A9C2B107BDA0016092C /* main.m in Sources */,
 				1C931A8E2B107BD90016092C /* SceneDelegate.m in Sources */,
 			);
