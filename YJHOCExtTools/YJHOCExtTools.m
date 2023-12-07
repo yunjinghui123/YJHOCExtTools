@@ -35,4 +35,9 @@
 + (NSString *)machineModel {
     return [YJHOCExtTools sharedManager].machinePlatform;
 }
+
+// 根据传入的字符串计算文字的尺寸
++ (CGSize)sizeWithText:(NSString *)text font:(UIFont *)font maxSize:(CGSize)maxSize {
+    return [text boundingRectWithSize:maxSize options:NSStringDrawingUsesFontLeading | NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:font} context:nil].size;
+}
 @end
