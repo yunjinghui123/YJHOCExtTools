@@ -6,9 +6,9 @@
 //  Copyright © 2023 com.huimai.shop. All rights reserved.
 //
 
-#import "UIViewController+Screen.h"
+#import "UIViewController+YJHScreen.h"
 
-@implementation UIViewController (Screen)
+@implementation UIViewController (YJHScreen)
 
 ///强制横屏
 - (void)switchOrientation:(BOOL)isFullScreen {
@@ -27,10 +27,11 @@
         //调用横屏代码
         NSNumber *resetOrientationTarget = [NSNumber numberWithInteger:UIInterfaceOrientationUnknown];
         [[UIDevice currentDevice] setValue:resetOrientationTarget forKey:@"orientation"];
-        UIInterfaceOrientationMask oriention = isFullScreen ? UIInterfaceOrientationMaskLandscapeRight : UIInterfaceOrientationMaskPortrait;
+        UIInterfaceOrientation oriention = isFullScreen ? UIInterfaceOrientationLandscapeRight : UIInterfaceOrientationPortrait;
         NSNumber *orientationTarget = [NSNumber numberWithInteger:oriention];
         [[UIDevice currentDevice] setValue:orientationTarget forKey:@"orientation"];
     }
 }
+
 
 @end
