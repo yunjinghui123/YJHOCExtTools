@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C032C6E2B30301E006D1E5A /* UIViewController+YJHScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C032C6D2B30301E006D1E5A /* UIViewController+YJHScreen.m */; };
 		1C6408332B1479A0001C48D4 /* YJHOCExtTools+machineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6408322B1479A0001C48D4 /* YJHOCExtTools+machineModel.m */; };
 		1C931A8B2B107BD90016092C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C931A8A2B107BD90016092C /* AppDelegate.m */; };
 		1C931A8E2B107BD90016092C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C931A8D2B107BD90016092C /* SceneDelegate.m */; };
@@ -19,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C032C6C2B30301E006D1E5A /* UIViewController+YJHScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YJHScreen.h"; sourceTree = "<group>"; };
+		1C032C6D2B30301E006D1E5A /* UIViewController+YJHScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YJHScreen.m"; sourceTree = "<group>"; };
+		1C032C6F2B304777006D1E5A /* YJHOCExtToolConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJHOCExtToolConst.h; sourceTree = "<group>"; };
 		1C6408312B1479A0001C48D4 /* YJHOCExtTools+machineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YJHOCExtTools+machineModel.h"; sourceTree = "<group>"; };
 		1C6408322B1479A0001C48D4 /* YJHOCExtTools+machineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YJHOCExtTools+machineModel.m"; sourceTree = "<group>"; };
 		1C931A862B107BD90016092C /* YJHOCExtToolsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJHOCExtToolsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,10 +92,13 @@
 		1C931AA22B107C3B0016092C /* YJHOCExtTools */ = {
 			isa = PBXGroup;
 			children = (
+				1C032C6F2B304777006D1E5A /* YJHOCExtToolConst.h */,
 				1C931AA32B107C500016092C /* YJHOCExtTools.h */,
 				1C931AA42B107C500016092C /* YJHOCExtTools.m */,
 				1C6408312B1479A0001C48D4 /* YJHOCExtTools+machineModel.h */,
 				1C6408322B1479A0001C48D4 /* YJHOCExtTools+machineModel.m */,
+				1C032C6C2B30301E006D1E5A /* UIViewController+YJHScreen.h */,
+				1C032C6D2B30301E006D1E5A /* UIViewController+YJHScreen.m */,
 			);
 			name = YJHOCExtTools;
 			path = ../../YJHOCExtTools;
@@ -169,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C931A912B107BD90016092C /* ViewController.m in Sources */,
+				1C032C6E2B30301E006D1E5A /* UIViewController+YJHScreen.m in Sources */,
 				1C931A8B2B107BD90016092C /* AppDelegate.m in Sources */,
 				1C931AA52B107C500016092C /* YJHOCExtTools.m in Sources */,
 				1C6408332B1479A0001C48D4 /* YJHOCExtTools+machineModel.m in Sources */,
