@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIViewController (Screen)
+@interface UIViewController (YJHScreen)
 - (void)switchOrientation:(BOOL)isFullScreen;
 @end
 
