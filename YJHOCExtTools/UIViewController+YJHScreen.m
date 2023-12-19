@@ -30,6 +30,7 @@
         UIInterfaceOrientation oriention = isFullScreen ? UIInterfaceOrientationLandscapeRight : UIInterfaceOrientationPortrait;
         NSNumber *orientationTarget = [NSNumber numberWithInteger:oriention];
         [[UIDevice currentDevice] setValue:orientationTarget forKey:@"orientation"];
+        [UIViewController attemptRotationToDeviceOrientation];
     }
 }
 
