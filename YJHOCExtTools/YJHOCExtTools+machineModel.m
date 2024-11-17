@@ -111,7 +111,11 @@
              @"iPhone15,4": @"iPhone 15",
              @"iPhone15,5": @"iPhone 15 Plus",
              @"iPhone16,1": @"iPhone 15 Pro",
-             @"iPhone16,2": @"iPhone 15 Pro Max"
+             @"iPhone16,2": @"iPhone 15 Pro Max",
+             @"iPhone17,1": @"iPhone 16",
+             @"iPhone17,2": @"iPhone 16 Plus",
+             @"iPhone17,3": @"iPhone 16 Pro",
+             @"iPhone17,4": @"iPhone 16 Pro Max"
     };
 }
 
@@ -198,7 +202,13 @@
              @"iPad14,3": @"iPad Pro 11-inch 4th gen",
              @"iPad14,4": @"iPad Pro 11-inch 4th gen",
              @"iPad14,5": @"iPad Pro 12.9-inch 6th gen",
-             @"iPad14,6": @"iPad Pro 12.9-inch 6th gen"
+             @"iPad14,6": @"iPad Pro 12.9-inch 6th gen",
+             @"iPad16,1": @"iPad Mini 7 (WiFi)",
+             @"iPad16,2": @"iPad Mini 7 (Cellular)",
+             @"iPad16,3": @"iPad Pro 11 M4",
+             @"iPad16,4": @"iPad Pro 11 M4",
+             @"iPad16,5": @"iPad Pro 13 M4",
+             @"iPad16,6": @"iPad Pro 13 M4"
     };
 }
 
