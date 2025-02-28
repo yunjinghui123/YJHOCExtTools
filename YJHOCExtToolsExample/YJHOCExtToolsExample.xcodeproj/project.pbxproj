@@ -17,6 +17,7 @@
 		1C931A992B107BDA0016092C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C931A972B107BDA0016092C /* LaunchScreen.storyboard */; };
 		1C931A9C2B107BDA0016092C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C931A9B2B107BDA0016092C /* main.m */; };
 		1C931AA52B107C500016092C /* YJHOCExtTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C931AA42B107C500016092C /* YJHOCExtTools.m */; };
+		1CCE51CC2D71E10A00AD3CCF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1CCE51CA2D71E10A00AD3CCF /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		1C931AA32B107C500016092C /* YJHOCExtTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJHOCExtTools.h; sourceTree = "<group>"; };
 		1C931AA42B107C500016092C /* YJHOCExtTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJHOCExtTools.m; sourceTree = "<group>"; };
 		1C931AA62B107EA90016092C /* YJHOCExtToolsExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YJHOCExtToolsExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		1CCE51CA2D71E10A00AD3CCF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		1C931AA22B107C3B0016092C /* YJHOCExtTools */ = {
 			isa = PBXGroup;
 			children = (
+				1CCE51CB2D71E10A00AD3CCF /* Resources */,
 				1C032C6F2B304777006D1E5A /* YJHOCExtToolConst.h */,
 				1C931AA32B107C500016092C /* YJHOCExtTools.h */,
 				1C931AA42B107C500016092C /* YJHOCExtTools.m */,
@@ -102,6 +105,14 @@
 			);
 			name = YJHOCExtTools;
 			path = ../../YJHOCExtTools;
+			sourceTree = "<group>";
+		};
+		1CCE51CB2D71E10A00AD3CCF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1CCE51CA2D71E10A00AD3CCF /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 			files = (
 				1C931A992B107BDA0016092C /* LaunchScreen.storyboard in Resources */,
 				1C931A962B107BDA0016092C /* Assets.xcassets in Resources */,
+				1CCE51CC2D71E10A00AD3CCF /* PrivacyInfo.xcprivacy in Resources */,
 				1C931A942B107BD90016092C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
